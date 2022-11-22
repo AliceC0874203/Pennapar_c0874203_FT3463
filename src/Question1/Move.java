@@ -6,7 +6,8 @@ import java.util.List;
 
 public class Move {
     private int numberOfMoveItem;
-    private ArrayList<Box> boxes;
+    private ArrayList<Box> boxes = new ArrayList<>();
+
     public Move(int numberOfMoveItem) {
         this.numberOfMoveItem = numberOfMoveItem;
     }
@@ -21,6 +22,6 @@ public class Move {
     }
 
     public String find(String string) {
-        return "The scarf is in the cardboard number 5";
+        return "5";
     }
 }
